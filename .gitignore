@@ -1,5 +1,12 @@
-.DS_Store
-venv/
-logs/
+.venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.DS_Store
+captures/
+*.pcap
+*.pcapng
+*.key
+*.p12
+*ca.pem

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tesla-netlab"
+version = "1.0.0"
+description = "Read-only macOS network diagnostics and offline PCAP analysis"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+tesla-netlab = "tesla_netlab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
